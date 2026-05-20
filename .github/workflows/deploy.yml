@@ -22,4 +22,4 @@ jobs:
 
       - name: Upload Files to S3
         run: |
-          aws s3 sync . s3://${{ secrets.nagul-test1  }} --delete
+          aws s3 sync . s3://${{ nagul-test1  }} --delete
